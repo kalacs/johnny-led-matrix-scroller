@@ -27,9 +27,6 @@
     "precheck": "npm run validate",
     "check": "npm run audit && npm run deps && npm outdated --depth 0"
   },
-  "pre-commit": [
-    "lint"
-  ],
   "devDependencies": {
     "babel": "^5.8.21",
     "babel-eslint": "^4.0.5",
